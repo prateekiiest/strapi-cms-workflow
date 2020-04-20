@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "surveys",
+  "info": {
+    "name": "Survey"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "SelfDiscovery1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "survey-sub-sections.survey-sub-section"
+    }
+  }
+}

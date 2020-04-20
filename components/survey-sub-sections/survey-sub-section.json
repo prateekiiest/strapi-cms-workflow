@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "components_survey_sub_sections_survey_sub_sections",
+  "info": {
+    "name": "surveySubSection",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "survey-questions.survey-questions"
+    }
+  }
+}

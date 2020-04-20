@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "components_questions_quesitons",
+  "info": {
+    "name": "quesitons",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "survey-questions.survey-questions"
+    }
+  }
+}

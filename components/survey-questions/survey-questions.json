@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "components_survey_questions_survey_questions",
+  "info": {
+    "name": "surveyQuestions",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "input": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
